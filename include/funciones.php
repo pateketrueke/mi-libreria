@@ -20,7 +20,7 @@ function config($key = NULL, $val = NULL) {
   static $bag = array();
 
   if (func_num_args() === 0) {
-    // Si no hay argumentos devolvemos la configruación
+    // Si no hay argumentos devolvemos la configuración
     return $bag;
   } elseif (is_string($key)) {
     if (func_num_args() === 1) {
